@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Testproject666"
+  description: "Another test project with techdocs"
+  annotations:
+    github.com/project-slug: tanuudemo/Testproject666
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: repository
+  lifecycle: experimental
+  owner: "group:default/admin"
